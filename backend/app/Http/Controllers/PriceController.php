@@ -11,7 +11,6 @@ class PriceController extends Controller
     /**
      * @OA\Get(
      *   path="/api/prices",
-     *   summary="Получить список отслеживаемых географических точек",
      *   operationId="GetPriceList",
      *   tags={"Price"},
      *   @OA\Parameter(name="page", in="query", @OA\Schema(type="integer")),
