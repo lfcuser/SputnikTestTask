@@ -5,13 +5,11 @@ namespace App\Http\Controllers\Swagger\Schemas;
 /**
 
  * @OA\Tag(
- *   name="Auth",
- *   description="Авторизация"
+ *   name="Auth"
  * )
  *
  * @OA\Tag(
- *   name="Price",
- *   description="Цены"
+ *   name="Price"
  * )
  */
 class Tags
